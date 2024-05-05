@@ -1,0 +1,17 @@
+# def bubble():
+#     ret = 0
+#     coin_flip = False
+#     while not coin_flip:
+#         coin_flip = random.choice([True, False])
+#         if coin_flip or ret == 10:
+#             return ret
+#         ret += 1
+
+# def karmarkar_karp(a):
+#     h = [-i for i in a]
+#     heapq.heapify(h)
+
+#     while len(h) > 10:
+#         first_index = bubble()
+#         second_index = bubble()
+#         if first_index != second_index
